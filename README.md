@@ -5,7 +5,8 @@ This repository will contain my the work done on my Bachelor on creating a appli
 PTU - Flir PTU D48E => Controlled using ROS node: http://wiki.ros.org/flir_ptu_driver
 
 
-Face-tracking mechanishm: '\t'
+Face-tracking mechanishm: 
+
 The program starts by using Cascade Classifiers to detect Faces using the HaarCascades. 
 After a Face a has been detected  the user press 'y' to enter the next stage. 
 A ROI will be created of the Face which in the next stage will be used to find goodFeaturesToTrack.
