@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "flir_ptu_viz")
+set(flir_ptu_viz_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(flir_ptu_viz_DEPRECATED "")
+set(flir_ptu_viz_VERSION "0.1.4")
+set(flir_ptu_viz_BUILD_DEPENDS "roslaunch")
+set(flir_ptu_viz_RUN_DEPENDS "flir_ptu_description" "joint_state_publisher" "robot_state_publisher" "rviz")
+set(flir_ptu_viz_BUILDTOOL_DEPENDS "catkin")

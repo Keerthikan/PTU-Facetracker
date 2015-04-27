@@ -1,0 +1,8 @@
+prefix=/home/kratnarajah/catkin_ws_PTU/install
+
+Name: serial
+Description: Description of serial
+Version: 1.2.0
+Cflags: -I/home/kratnarajah/catkin_ws_PTU/install/include
+Libs: -L/home/kratnarajah/catkin_ws_PTU/install/lib -lserial
+Requires: 

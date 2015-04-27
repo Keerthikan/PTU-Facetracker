@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "flir_ptu_description")
+set(flir_ptu_description_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(flir_ptu_description_DEPRECATED "")
+set(flir_ptu_description_VERSION "0.1.4")
+set(flir_ptu_description_BUILD_DEPENDS "xacro")
+set(flir_ptu_description_RUN_DEPENDS "urdf" "xacro")
+set(flir_ptu_description_BUILDTOOL_DEPENDS "catkin")

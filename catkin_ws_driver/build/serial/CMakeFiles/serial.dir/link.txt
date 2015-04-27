@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++0x   -shared -Wl,-soname,libserial.so -o /home/kratnarajah/catkin_ws_PTU/devel/lib/libserial.so CMakeFiles/serial.dir/src/serial.cc.o CMakeFiles/serial.dir/src/impl/unix.cc.o CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o -lrt -lpthread 

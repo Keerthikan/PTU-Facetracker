@@ -1,0 +1,8 @@
+prefix=/home/kratnarajah/catkin_ws_PTU/devel
+
+Name: flir_ptu_viz
+Description: Description of flir_ptu_viz
+Version: 0.1.4
+Cflags: 
+Libs: -L/home/kratnarajah/catkin_ws_PTU/devel/lib 
+Requires: 

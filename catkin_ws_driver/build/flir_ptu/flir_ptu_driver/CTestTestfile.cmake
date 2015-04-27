@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/kratnarajah/catkin_ws_PTU/src/flir_ptu/flir_ptu_driver
+# Build directory: /home/kratnarajah/catkin_ws_PTU/build/flir_ptu/flir_ptu_driver
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(_ctest_flir_ptu_driver_roslint_package "/home/kratnarajah/catkin_ws_PTU/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/home/kratnarajah/catkin_ws_PTU/build/test_results/flir_ptu_driver/roslint-flir_ptu_driver.xml" "--working-dir" "/home/kratnarajah/catkin_ws_PTU/build/flir_ptu/flir_ptu_driver" "--return-code" "/opt/ros/indigo/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/kratnarajah/catkin_ws_PTU/build/test_results/flir_ptu_driver/roslint-flir_ptu_driver.xml make roslint_flir_ptu_driver")
+ADD_TEST(_ctest_flir_ptu_driver_roslaunch-check_launch_ptu.launch "/home/kratnarajah/catkin_ws_PTU/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/home/kratnarajah/catkin_ws_PTU/build/test_results/flir_ptu_driver/roslaunch-check_launch_ptu.launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/kratnarajah/catkin_ws_PTU/build/test_results/flir_ptu_driver" "/opt/ros/indigo/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/kratnarajah/catkin_ws_PTU/build/test_results/flir_ptu_driver/roslaunch-check_launch_ptu.launch.xml' '/home/kratnarajah/catkin_ws_PTU/src/flir_ptu/flir_ptu_driver/launch/ptu.launch' ")

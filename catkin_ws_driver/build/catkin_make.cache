@@ -1,0 +1,2 @@
+flir_ptu/flir_ptu_description:flir_ptu/flir_ptu_driver:flir_ptu/flir_ptu_viz:serial
+-DCATKIN_DEVEL_PREFIX=/home/kratnarajah/catkin_ws_PTU/devel -DCMAKE_INSTALL_PREFIX=/home/kratnarajah/catkin_ws_PTU/install -G Unix Makefiles
