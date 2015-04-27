@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(cv_bro)
+project(cv_bridge)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -83,7 +83,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES cv_bro
+#  LIBRARIES cv_bridge
 #  CATKIN_DEPENDS cv_bridge image_transport roscpp sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
@@ -100,19 +100,19 @@ include_directories(
 )
 
 ## Declare a cpp library
-# add_library(cv_bro
-#   src/${PROJECT_NAME}/cv_bro.cpp
+# add_library(cv_bridge
+#   src/${PROJECT_NAME}/cv_bridge.cpp
 # )
 
 ## Declare a cpp executable
-# add_executable(cv_bro_node src/cv_bro_node.cpp)
+# add_executable(cv_bridge_node src/cv_bridge_node.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-# add_dependencies(cv_bro_node cv_bro_generate_messages_cpp)
+# add_dependencies(cv_bridge_node cv_bridge_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(cv_bro_node
+# target_link_libraries(cv_bridge_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -131,7 +131,7 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS cv_bro cv_bro_node
+# install(TARGETS cv_bridge cv_bridge_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -156,7 +156,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_cv_bro.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_cv_bridge.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
