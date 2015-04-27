@@ -11,8 +11,7 @@ The program starts by using Cascade Classifiers to detect Faces using the HaarCa
 After a Face a has been detected  the user press 'y' to confirm it has been detected. 
 A ROI will be created of the Face which in the next stage will be used to find goodFeaturesToTrack.
 These features are then using Lukas-kanade to used track the movement of the face. 
-Lukas kanade drifting issue  is be minimized by keeping Features used for tracking close to each other. 
-+ extraction features based on Forward - backward Error. 
+Lukas kanade drifting issue  is be minimized by keeping Features used for tracking close to each other and by  extracting features which is deemed good from performing forward - backward error. 
 
 
 
