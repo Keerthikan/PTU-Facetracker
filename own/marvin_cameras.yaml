@@ -1,0 +1,4 @@
+bumblebeePTU:
+  serial: 7040999
+  calibration_raw_file: calibrationFiles/BumbleBee2-PTU.txt
+  camera_postion_file: calibrationFiles/position_PTU.txt

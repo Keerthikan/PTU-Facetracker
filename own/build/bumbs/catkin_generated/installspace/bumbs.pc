@@ -1,0 +1,8 @@
+prefix=/home/kratnarajah/own/install
+
+Name: bumbs
+Description: Description of bumbs
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kratnarajah/own/install/lib 
+Requires: 

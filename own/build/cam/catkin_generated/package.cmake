@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cam")
+set(cam_MAINTAINER "kratnarajah <kratnarajah@todo.todo>")
+set(cam_DEPRECATED "")
+set(cam_VERSION "0.0.0")
+set(cam_BUILD_DEPENDS "roscpp")
+set(cam_RUN_DEPENDS "roscpp")
+set(cam_BUILDTOOL_DEPENDS "catkin")

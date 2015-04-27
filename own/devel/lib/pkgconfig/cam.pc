@@ -1,0 +1,8 @@
+prefix=/home/kratnarajah/own/devel
+
+Name: cam
+Description: Description of cam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kratnarajah/own/devel/lib 
+Requires: 

@@ -1,0 +1,32 @@
+#include <ros/ros.h>
+#include <image_transport/image_transport.h>
+#include <cv_bridge/cv_bridge.h>
+#include <sensor_msgs/image_encodings.h>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include "facedetect.h"
+#include "sensor_msgs/JointState.h"
+
+
+using namespace cv;
+using namespace std;
+
+static const std::string OPENCV_WINDOW = "Image window";
+
+
+class ImageConverter
+{
+  ros::NodeHandle nh_;
+  image_transport::ImageTransport it_;
+  image_transport::Subscriber image_sub_;
+  image_transport::Publisher image_pub_;
+  std::vector<double> pos;
+  std::vector<double> vel;
+  float pos1_temp;
+  float pos2_temp;
+public:
+	  void chatterCallback(const sensor_msgs::JointState::ConstPtr& msg);
+	  ImageConverter(): it_(nh_),pos(2), vel(2);
+	    ~ImageConverter();
+	  void imageCb(const sensor_msgs::ImageConstPtr& msg);
+};

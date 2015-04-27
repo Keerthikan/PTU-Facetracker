@@ -1,0 +1,85 @@
+//
+//  main.cpp
+//  facedetect
+//
+//  Created by Keerthikan Ratnarajah on 30/01/15.
+//  Copyright (c) 2015 Keerthikan Ratnarajah. All rights reserved.
+//
+
+#include <iostream>
+#include <opencv2/objdetect/objdetect.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+using namespace cv;
+using namespace std;
+
+
+//String face_cascade_XML = "/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml";
+String face_cascade_XML = "/usr/share/opencv/lbpcascades/lbpcascade_frontalface.xml";
+
+CascadeClassifier face_cascade;
+
+//detectAndDisplay - displacement
+pair<double, double> detectAndDisplay( Mat frame )
+{
+    vector<Rect> faces;
+    Point center_of_frame(frame.size().width/2,frame.size().height/2);
+    pair<double, double> displacement;
+    
+    if (frame.type()!= 8) {
+        cvtColor(frame, frame, CV_8U);
+    }
+    circle(frame, center_of_frame, 1, CV_RGB(0,255,255),8,8,0);
+    
+    //-- Detect faces
+    face_cascade.detectMultiScale( frame, faces, 1.1, 2, 0, Size(100, 100) );
+    
+    for(int i = 0; i<faces.size();i++)
+    {
+        Point center_position_of_face((faces[i].br().x+faces[i].tl().x)/2,(faces[i].tl().y+faces[i].br().y)/2);
+        rectangle(frame, faces[i], CV_RGB(0,255,0),4,8,0);
+        circle(frame, center_position_of_face, 8, CV_RGB(128,128,128),8,8,0);
+        line(frame, center_position_of_face, center_of_frame, CV_RGB(0,200,0),1,8);
+       double  displacement_pixels_x = (center_of_frame.x-center_position_of_face.x)*(-0.002778); 
+       double  displacement_pixels_y = (center_of_frame.y-center_position_of_face.y)*(0.002778);
+     displacement = make_pair(displacement_pixels_x,displacement_pixels_y);
+    }
+    
+    
+    flip(frame, frame, 1);
+    imshow( "Face detection", frame);
+    return displacement;
+}
+
+//int main( int argc, const char** argv )
+//{
+    //VideoCapture cam(0);
+    //Mat frame;
+    
+    ////-- 1. Load the cascades
+    //if( !face_cascade.load( face_cascade_XML ) ){
+        //cout << "Cascade Error" << endl;
+        //return 0;
+    //};
+    
+    ////-- 2. Read the video stream
+    //if( !cam.isOpened() )
+    //{
+        //cout <<"Webcam error" << endl;
+        //return 0;
+    //}
+    //else
+    //{
+        //while( true )
+        //{
+            //cam.read(frame);
+            ////-- 3. Apply the classifier to the frame
+            //if( !frame.empty() ){cout  <<detectAndDisplay(frame).first<<"," << detectAndDisplay(frame).second << endl;}
+            //if (waitKey(1) == 'c')
+                //break;
+        //}
+    //}
+    
+    //return 0;
+//}

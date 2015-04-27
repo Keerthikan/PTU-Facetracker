@@ -1,0 +1,2 @@
+bumbs:cv_bro
+-DCATKIN_DEVEL_PREFIX=/home/kratnarajah/own/devel -DCMAKE_INSTALL_PREFIX=/home/kratnarajah/own/install -G Unix Makefiles

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "CV")
+set(CV_MAINTAINER "kratnarajah <kratnarajah@todo.todo>")
+set(CV_DEPRECATED "")
+set(CV_VERSION "0.0.0")
+set(CV_BUILD_DEPENDS "cv_bridge" "image_transport" "roscpp" "sensor_msgs" "std_msgs")
+set(CV_RUN_DEPENDS "cv_bridge" "image_transport" "roscpp" "sensor_msgs" "std_msgs")
+set(CV_BUILDTOOL_DEPENDS "catkin")

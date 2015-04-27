@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "bumbs")
+set(bumbs_MAINTAINER "kratnarajah <kratnarajah@todo.todo>")
+set(bumbs_DEPRECATED "")
+set(bumbs_VERSION "0.0.0")
+set(bumbs_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs")
+set(bumbs_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs")
+set(bumbs_BUILDTOOL_DEPENDS "catkin")

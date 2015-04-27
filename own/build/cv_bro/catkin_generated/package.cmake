@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cv_bro")
+set(cv_bro_MAINTAINER "kratnarajah <kratnarajah@todo.todo>")
+set(cv_bro_DEPRECATED "")
+set(cv_bro_VERSION "0.0.0")
+set(cv_bro_BUILD_DEPENDS "cv_bridge" "image_transport" "roscpp" "sensor_msgs" "std_msgs")
+set(cv_bro_RUN_DEPENDS "cv_bridge" "image_transport" "roscpp" "sensor_msgs" "std_msgs")
+set(cv_bro_BUILDTOOL_DEPENDS "catkin")
