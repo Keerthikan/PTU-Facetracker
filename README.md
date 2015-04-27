@@ -3,6 +3,8 @@
 This repository will contain my the work done on my Bachelor on creating a application capable of tracking the movement of a face and convert them into proper movements for the PTU system. 
 
 PTU - Flir PTU D48E => Controlled using ROS node: http://wiki.ros.org/flir_ptu_driver
+
+
 Face-tracking mechanishm:
 The program starts by using Cascade Classifiers to detect Faces using the HaarCascades. 
 After a Face a has been detected  the user press 'y' to enter the next stage. 
