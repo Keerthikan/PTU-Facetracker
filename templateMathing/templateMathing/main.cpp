@@ -84,12 +84,10 @@ int main(int argc, const char * argv[]) {
     Mat frame;
     frame = imread("/Users/keerthikanratnarajah/PTU-Facetracker/templateMathing/sourceimg/man.jpg",CV_LOAD_IMAGE_GRAYSCALE);
     Rect face;
-    while(waitKey(1) != 'y')
-    {
-        face = Facerecognizer(frame);
-    }
+    face = Facerecognizer(frame);
     destroyAllWindows();
     Mat Source = imread("/Users/keerthikanratnarajah/PTU-Facetracker/templateMathing/sourceimg/man.jpg",CV_LOAD_IMAGE_GRAYSCALE);
+    imwrite("/Users/keerthikanratnarajah/PTU-Facetracker/templateMathing/templateimg/manRoi.jpg", ROIS);
     Point max = normCrossCorrelation(frame,ROI,CV_TM_CCOEFF_NORMED);
     circle(Source, max, 11, Scalar(0,0,255),8,2);
     imshow("template", ROIS);
