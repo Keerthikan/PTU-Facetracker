@@ -1,0 +1,367 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     15816,        357]
+NotebookOptionsPosition[     14785,        318]
+NotebookOutlinePosition[     15140,        334]
+CellTagsIndexPosition[     15097,        331]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RandomVariate", "[", 
+   RowBox[{
+    RowBox[{"NormalDistribution", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0.349880"}], "}"}], "]"}], ",", "100"}], "]"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.639478443755507*^9, 3.6394784666897793`*^9}, {
+  3.639478521467534*^9, 3.6394785235872593`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NormalDistribution", "::", "argr"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(NormalDistribution\\)\[NoBreak] called \
+with 1 argument; \[NoBreak]\\!\\(2\\)\[NoBreak] arguments are expected. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/NormalDistribution\\\", \
+ButtonNote -> \\\"NormalDistribution::argr\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639478529738714*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RandomVariate", "::", "realprm"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Parameter \[NoBreak]\\!\\({0, 0.34988`}\\)\[NoBreak] at \
+position \[NoBreak]\\!\\(1\\)\[NoBreak] in \
+\[NoBreak]\\!\\(NormalDistribution[\\(\\({0, 0.34988`}\\)\\)]\\)\[NoBreak] is \
+expected to be real. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/RandomVariate\\\", ButtonNote -> \
+\\\"RandomVariate::realprm\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6394785298157463`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NormalDistribution", "::", "argr"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(NormalDistribution\\)\[NoBreak] called \
+with 1 argument; \[NoBreak]\\!\\(2\\)\[NoBreak] arguments are expected. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/NormalDistribution\\\", \
+ButtonNote -> \\\"NormalDistribution::argr\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639478529823181*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RandomVariate", "[", 
+  RowBox[{
+   RowBox[{"UniformDistribution", "[", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0.34988`"}], "}"}], "]"}], ",", "100"}], "]"}]], \
+"Input",
+ CellChangeTimes->{{3.6394786642468348`*^9, 3.6394786847766533`*^9}, {
+  3.639478727669197*^9, 3.639478824587674*^9}, {3.639478856918448*^9, 
+  3.639478861044869*^9}, {3.63947893313687*^9, 3.6394789496712923`*^9}, {
+  3.639478983106934*^9, 3.639479038097329*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0.07511799301568223`", ",", "0.08733348062384172`", ",", 
+   "0.06851466239349208`", ",", "0.02647381791069392`", ",", 
+   "0.17925160590794037`", ",", "0.17258814644318649`", ",", 
+   "0.1478055434166861`", ",", "0.07305691721991403`", ",", 
+   "0.32352963646419813`", ",", "0.08939760319219603`", ",", 
+   "0.2722994029198558`", ",", "0.19165780721590392`", ",", 
+   "0.1576131750234006`", ",", "0.004384051480630813`", ",", 
+   "0.3111013176383423`", ",", "0.20385797221070084`", ",", 
+   "0.004996387166555261`", ",", "0.06797854105057038`", ",", 
+   "0.2766509243827813`", ",", "0.1967635724430838`", ",", 
+   "0.2608064969199107`", ",", "0.3347904107502963`", ",", 
+   "0.140801625870359`", ",", "0.29492986628082446`", ",", 
+   "0.3161428358896559`", ",", "0.3146715932191075`", ",", 
+   "0.22291610773285714`", ",", "0.2158390313595891`", ",", 
+   "0.017135185264201325`", ",", "0.2815157273812681`", ",", 
+   "0.06761133311113315`", ",", "0.1227232765380114`", ",", 
+   "0.12364342334996065`", ",", "0.3437952353788019`", ",", 
+   "0.07822865764165376`", ",", "0.12174371130682882`", ",", 
+   "0.33815582266305594`", ",", "0.02821427207321686`", ",", 
+   "0.25613536091343364`", ",", "0.056631387004747846`", ",", 
+   "0.19073433400290968`", ",", "0.12901509720728427`", ",", 
+   "0.13454325381205268`", ",", "0.007093016070854163`", ",", 
+   "0.2232944690023982`", ",", "0.2783113518963925`", ",", 
+   "0.28752916255029565`", ",", "0.24438470898450354`", ",", 
+   "0.16811166405364059`", ",", "0.02554088387272202`", ",", 
+   "0.10652925363436488`", ",", "0.12436648114635407`", ",", 
+   "0.12905849567088218`", ",", "0.04645660473357477`", ",", 
+   "0.09663244610190036`", ",", "0.014391141114773687`", ",", 
+   "0.3405759061485731`", ",", "0.3464640826437903`", ",", 
+   "0.29580068064990767`", ",", "0.0802204963639292`", ",", 
+   "0.09315851330031094`", ",", "0.22809514753771704`", ",", 
+   "0.2640417240698533`", ",", "0.061514750690382314`", ",", 
+   "0.27076225298818296`", ",", "0.30095310107256107`", ",", 
+   "0.1355724002443796`", ",", "0.004556653019421764`", ",", 
+   "0.02605253973662708`", ",", "0.1763765803213539`", ",", 
+   "0.17557826626717027`", ",", "0.05405524342947948`", ",", 
+   "0.22703132917942476`", ",", "0.33281529563728224`", ",", 
+   "0.12604187615737983`", ",", "0.0010322616782794114`", ",", 
+   "0.038497831037764385`", ",", "0.09253590751108953`", ",", 
+   "0.27246900455141726`", ",", "0.10626115099558925`", ",", 
+   "0.2875104582320322`", ",", "0.2916147075064022`", ",", 
+   "0.156399628139742`", ",", "0.2442097247502309`", ",", 
+   "0.27684215287027375`", ",", "0.15025682067548657`", ",", 
+   "0.2551915392474465`", ",", "0.10965195550986995`", ",", 
+   "0.10938464946444648`", ",", "0.23170219968874955`", ",", 
+   "0.03656568586874159`", ",", "0.11046165636883792`", ",", 
+   "0.08403873265231127`", ",", "0.23697818828719236`", ",", 
+   "0.22620054285965568`", ",", "0.21060523231842315`", ",", 
+   "0.17066509339644093`", ",", "0.0229339177466531`", ",", 
+   "0.02114537898652097`", ",", "0.18039464009708733`"}], "}"}]], "Output",
+ CellChangeTimes->{3.639479038549111*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", 
+  StyleBox["[", "Input"], 
+  RowBox[{
+   StyleBox[
+    "\!\(\*\"\\\"\"\)\!\(\*\"/\"\)\!\(\*\"Users\"\)\!\(\*\"/\"\)\!\(\*\"\
+keerthikanratnarajah\"\)\!\(\*\"/\"\)\!\(\*\"PTU\"\)\!\(\*\"-\"\)\!\(\*\"\
+Facetracker\"\)\!\(\*\"/\"\)\!\(\*\"SystemIdent\"\)\!\(\*\"/\"\)\!\(\*\"data\"\
+\)\!\(\*\".\"\)\!\(\*\"csv\"\)\!\(\*\"\\\"\"\)", "Input"], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "0.07511799301568223`", ",", "0.08733348062384172`", ",", 
+     "0.06851466239349208`", ",", "0.02647381791069392`", ",", 
+     "0.17925160590794037`", ",", "0.17258814644318649`", ",", 
+     "0.1478055434166861`", ",", "0.07305691721991403`", ",", 
+     "0.32352963646419813`", ",", "0.08939760319219603`", ",", 
+     "0.2722994029198558`", ",", "0.19165780721590392`", ",", 
+     "0.1576131750234006`", ",", "0.004384051480630813`", ",", 
+     "0.3111013176383423`", ",", "0.20385797221070084`", ",", 
+     "0.004996387166555261`", ",", "0.06797854105057038`", ",", 
+     "0.2766509243827813`", ",", "0.1967635724430838`", ",", 
+     "0.2608064969199107`", ",", "0.3347904107502963`", ",", 
+     "0.140801625870359`", ",", "0.29492986628082446`", ",", 
+     "0.3161428358896559`", ",", "0.3146715932191075`", ",", 
+     "0.22291610773285714`", ",", "0.2158390313595891`", ",", 
+     "0.017135185264201325`", ",", "0.2815157273812681`", ",", 
+     "0.06761133311113315`", ",", "0.1227232765380114`", ",", 
+     "0.12364342334996065`", ",", "0.3437952353788019`", ",", 
+     "0.07822865764165376`", ",", "0.12174371130682882`", ",", 
+     "0.33815582266305594`", ",", "0.02821427207321686`", ",", 
+     "0.25613536091343364`", ",", "0.056631387004747846`", ",", 
+     "0.19073433400290968`", ",", "0.12901509720728427`", ",", 
+     "0.13454325381205268`", ",", "0.007093016070854163`", ",", 
+     "0.2232944690023982`", ",", "0.2783113518963925`", ",", 
+     "0.28752916255029565`", ",", "0.24438470898450354`", ",", 
+     "0.16811166405364059`", ",", "0.02554088387272202`", ",", 
+     "0.10652925363436488`", ",", "0.12436648114635407`", ",", 
+     "0.12905849567088218`", ",", "0.04645660473357477`", ",", 
+     "0.09663244610190036`", ",", "0.014391141114773687`", ",", 
+     "0.3405759061485731`", ",", "0.3464640826437903`", ",", 
+     "0.29580068064990767`", ",", "0.0802204963639292`", ",", 
+     "0.09315851330031094`", ",", "0.22809514753771704`", ",", 
+     "0.2640417240698533`", ",", "0.061514750690382314`", ",", 
+     "0.27076225298818296`", ",", "0.30095310107256107`", ",", 
+     "0.1355724002443796`", ",", "0.004556653019421764`", ",", 
+     "0.02605253973662708`", ",", "0.1763765803213539`", ",", 
+     "0.17557826626717027`", ",", "0.05405524342947948`", ",", 
+     "0.22703132917942476`", ",", "0.33281529563728224`", ",", 
+     "0.12604187615737983`", ",", "0.0010322616782794114`", ",", 
+     "0.038497831037764385`", ",", "0.09253590751108953`", ",", 
+     "0.27246900455141726`", ",", "0.10626115099558925`", ",", 
+     "0.2875104582320322`", ",", "0.2916147075064022`", ",", 
+     "0.156399628139742`", ",", "0.2442097247502309`", ",", 
+     "0.27684215287027375`", ",", "0.15025682067548657`", ",", 
+     "0.2551915392474465`", ",", "0.10965195550986995`", ",", 
+     "0.10938464946444648`", ",", "0.23170219968874955`", ",", 
+     "0.03656568586874159`", ",", "0.11046165636883792`", ",", 
+     "0.08403873265231127`", ",", "0.23697818828719236`", ",", 
+     "0.22620054285965568`", ",", "0.21060523231842315`", ",", 
+     "0.17066509339644093`", ",", "0.0229339177466531`", ",", 
+     "0.02114537898652097`", ",", "0.18039464009708733`"}], "}"}], ",", 
+   "\"\<csv\>\""}], 
+  StyleBox["]", "Input"]}]], "Input",
+ CellChangeTimes->{{3.639479040361787*^9, 3.639479053626348*^9}, {
+  3.6394790836563396`*^9, 3.6394790845675907`*^9}, {3.6394802058130302`*^9, 
+  3.639480231757846*^9}, {3.639480425075922*^9, 3.639480427721554*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "tsntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\\\"\[NoBreak]\\!\\(Export[\\(\\(\[LeftSkeleton] 200 \
+\[RightSkeleton]\\)\\), \\(\\({0.07511799301568223`, 0.08733348062384172`, \
+0.06851466239349208`, 0.02647381791069392`, \\(\\(\[LeftSkeleton] 92 \
+\[RightSkeleton]\\)\\), 0.17066509339644093`, 0.0229339177466531`, \
+0.02114537898652097`, 0.18039464009708733`}\\)\\), \
+\\\"csv\\\"]\\)\[NoBreak]\\\" is incomplete; more input is \
+needed.\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak]\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639480431506483*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Incomplete expression; more input is needed \
+\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6394804315074177`*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.63947887163258*^9, 3.6394788725240192`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$Path", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.6394801106887627`*^9, 3.63948011570044*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"/Applications/Mathematica.app/SystemFiles/Links\"\>", 
+   ",", "\<\"/Users/keerthikanratnarajah/Library/Mathematica/Kernel\"\>", 
+   ",", "\<\"/Users/keerthikanratnarajah/Library/Mathematica/Autoload\"\>", 
+   ",", "\<\"/Users/keerthikanratnarajah/Library/Mathematica/Applications\"\>\
+", ",", "\<\"/Library/Mathematica/Kernel\"\>", 
+   ",", "\<\"/Library/Mathematica/Autoload\"\>", 
+   ",", "\<\"/Library/Mathematica/Applications\"\>", ",", "\<\".\"\>", 
+   ",", "\<\"/Users/keerthikanratnarajah\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/AddOns/Packages\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/AddOns/LegacyPackages\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/SystemFiles/Autoload\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/AddOns/Autoload\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/AddOns/Applications\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/AddOns/ExtraPackages\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/SystemFiles/Kernel/Packages\"\>", 
+   ",", "\<\"/Applications/Mathematica.app/Documentation/English/System\"\>"}]\
+, "}"}]], "Output",
+ CellChangeTimes->{3.6394801163990927`*^9}]
+}, Open  ]],
+
+Cell[BoxData["\"\</Users/keerthikanratnarajah/Documents/Untitled 4.pdf\>\""], \
+"Input",
+ CellChangeTimes->{3.639480188310828*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetDirectory", "@", 
+    RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.639480460167736*^9, 3.6394804601685658`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NotebookDirectory", "::", "nosv"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The notebook \
+\[NoBreak]\\!\\(\\*InterpretationBox[\\(NotebookObject[\\(\\(\\*PanelBox[\
+GridBox[{{TooltipBox[ButtonBox[StyleBox[DynamicBox[FEPrivate`FrontEndResource[\
+\\\"FEBitmaps\\\", \\\"ManipulatePasteIcon\\\"]], Rule[DynamicUpdating, \
+True]], Rule[ButtonFrame, None], RuleDelayed[ButtonFunction, \
+FrontEndExecute[List[FrontEnd`SetSelectedNotebook[NotebookObject[\
+FrontEndObject[LinkObject[\\\"u6r_shm\\\", 1, 1]], 17]]]]], \
+Rule[ButtonEvaluator, None], Rule[BaseStyle, List[]], Rule[Method, \\\"Queued\
+\\\"]], DynamicBox[FEPrivate`FrontEndResource[\\\"FEStrings\\\", \
+\\\"NotebookObjectToTheFront\\\"]]], \
+StyleBox[\\\"\\\\\\\"Untitled-1\\\\\\\"\\\", Rule[FontColor, \
+GrayLevel[0.5`]], Rule[StripOnInput, False]]}}, ColumnAlignments -> Left], \
+Rule[FrameMargins, List[List[4, 5], List[4, 4]]]]\\)\\)]\\), \
+NotebookObject[FrontEndObject[LinkObject[\\\"u6r_shm\\\", 1, 1]], 17], \
+Rule[Editable, False]]\\)\[NoBreak] is not saved. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/NotebookDirectory\\\", ButtonNote -> \
+\\\"NotebookDirectory::nosv\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639480462169456*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"SetDirectory", "::", "fstr"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"File specification \[NoBreak]\\!\\($Failed\\)\[NoBreak] is \
+not a string of one or more characters. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/fstr\\\", ButtonNote -> \
+\\\"SetDirectory::fstr\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6394804621701193`*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 847},
+WindowMargins->{{Automatic, 73}, {26, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 5, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 340, 9, 43, "Input"],
+Cell[922, 33, 528, 10, 23, "Message"],
+Cell[1453, 45, 596, 12, 40, "Message"],
+Cell[2052, 59, 528, 10, 23, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2617, 74, 462, 10, 27, InheritFromParent],
+Cell[3082, 86, 3174, 53, 208, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6293, 144, 3901, 66, 523, "Input"],
+Cell[10197, 212, 621, 12, 56, "Message"],
+Cell[10821, 226, 276, 7, 21, "Message"]
+}, Open  ]],
+Cell[11112, 236, 93, 1, 27, "Input"],
+Cell[CellGroupData[{
+Cell[11230, 241, 133, 2, 43, "Input"],
+Cell[11366, 245, 1185, 19, 223, "Output"]
+}, Open  ]],
+Cell[12566, 267, 130, 2, 27, "Input"],
+Cell[CellGroupData[{
+Cell[12721, 273, 207, 5, 43, "Input"],
+Cell[12931, 280, 1343, 23, 34, "Message"],
+Cell[14277, 305, 492, 10, 23, "Message"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

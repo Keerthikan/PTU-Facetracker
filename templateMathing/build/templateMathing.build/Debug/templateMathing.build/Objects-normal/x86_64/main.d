@@ -12,7 +12,5 @@ dependencies: \
   /usr/local/include/opencv2/highgui/highgui.hpp \
   /usr/local/include/opencv2/highgui/highgui_c.h \
   /usr/local/include/opencv2/core/core_c.h \
-  /usr/local/include/opencv2/calib3d/calib3d.hpp \
-  /usr/local/include/opencv2/core/affine.hpp \
   /usr/local/include/opencv2/nonfree/nonfree.hpp \
   /usr/local/include/opencv2/nonfree/features2d.hpp
