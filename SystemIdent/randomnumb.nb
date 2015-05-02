@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     15816,        357]
-NotebookOptionsPosition[     14785,        318]
-NotebookOutlinePosition[     15140,        334]
-CellTagsIndexPosition[     15097,        331]
+NotebookDataLength[     14641,        339]
+NotebookOptionsPosition[     13615,        300]
+NotebookOutlinePosition[     13970,        316]
+CellTagsIndexPosition[     13927,        313]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -269,8 +269,6 @@ Cell[BoxData["\"\</Users/keerthikanratnarajah/Documents/Untitled 4.pdf\>\""], \
 "Input",
  CellChangeTimes->{3.639480188310828*^9}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{
@@ -278,42 +276,26 @@ Cell[BoxData[
     RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}], "\n"}]], "Input",
  CellChangeTimes->{{3.639480460167736*^9, 3.6394804601685658`*^9}}],
 
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NotebookDirectory", "::", "nosv"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"The notebook \
-\[NoBreak]\\!\\(\\*InterpretationBox[\\(NotebookObject[\\(\\(\\*PanelBox[\
-GridBox[{{TooltipBox[ButtonBox[StyleBox[DynamicBox[FEPrivate`FrontEndResource[\
-\\\"FEBitmaps\\\", \\\"ManipulatePasteIcon\\\"]], Rule[DynamicUpdating, \
-True]], Rule[ButtonFrame, None], RuleDelayed[ButtonFunction, \
-FrontEndExecute[List[FrontEnd`SetSelectedNotebook[NotebookObject[\
-FrontEndObject[LinkObject[\\\"u6r_shm\\\", 1, 1]], 17]]]]], \
-Rule[ButtonEvaluator, None], Rule[BaseStyle, List[]], Rule[Method, \\\"Queued\
-\\\"]], DynamicBox[FEPrivate`FrontEndResource[\\\"FEStrings\\\", \
-\\\"NotebookObjectToTheFront\\\"]]], \
-StyleBox[\\\"\\\\\\\"Untitled-1\\\\\\\"\\\", Rule[FontColor, \
-GrayLevel[0.5`]], Rule[StripOnInput, False]]}}, ColumnAlignments -> Left], \
-Rule[FrameMargins, List[List[4, 5], List[4, 4]]]]\\)\\)]\\), \
-NotebookObject[FrontEndObject[LinkObject[\\\"u6r_shm\\\", 1, 1]], 17], \
-Rule[Editable, False]]\\)\[NoBreak] is not saved. \\!\\(\\*ButtonBox[\\\"\
-\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/NotebookDirectory\\\", ButtonNote -> \
-\\\"NotebookDirectory::nosv\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.639480462169456*^9}],
+Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"SetDirectory", "::", "fstr"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"File specification \[NoBreak]\\!\\($Failed\\)\[NoBreak] is \
-not a string of one or more characters. \\!\\(\\*ButtonBox[\\\"\
-\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/fstr\\\", ButtonNote -> \
-\\\"SetDirectory::fstr\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6394804621701193`*^9}]
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<data1.csv\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{"RandomVariate", "[", 
+     RowBox[{
+      RowBox[{"UniformDistribution", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.34988"}], ",", "0.34988`"}], "}"}], "]"}], ",", 
+      "100"}], "]"}], "}"}], ",", "\"\<csv\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.639480503576627*^9, 3.639480535184353*^9}, {
+  3.639480772615367*^9, 3.639480778119028*^9}, {3.639484401399372*^9, 
+  3.639484406854076*^9}}],
+
+Cell[BoxData["\<\"data1.csv\"\>"], "Output",
+ CellChangeTimes->{3.6394805361807013`*^9, 3.6394807791304483`*^9, 
+  3.639484407321741*^9}]
 }, Open  ]]
 },
 WindowSize->{740, 847},
@@ -354,14 +336,13 @@ Cell[11230, 241, 133, 2, 43, "Input"],
 Cell[11366, 245, 1185, 19, 223, "Output"]
 }, Open  ]],
 Cell[12566, 267, 130, 2, 27, "Input"],
+Cell[12699, 271, 207, 5, 43, "Input"],
 Cell[CellGroupData[{
-Cell[12721, 273, 207, 5, 43, "Input"],
-Cell[12931, 280, 1343, 23, 34, "Message"],
-Cell[14277, 305, 492, 10, 23, "Message"]
+Cell[12931, 280, 528, 13, 43, "Input"],
+Cell[13462, 295, 137, 2, 27, "Output"]
 }, Open  ]]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
