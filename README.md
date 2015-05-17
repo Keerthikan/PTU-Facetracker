@@ -9,7 +9,9 @@ PTU - Flir PTU D48E => Controlled using ROS node: http://wiki.ros.org/flir_ptu_d
 Face-tracking mechanishm: 
 
 Facetracking/detection is divided into two states. 
+
 1. state -  Face detection. 
+
 The Facedetection is done using Haarcascades.  
 The program tries to detect find faces using Haar classifiers which has been trained using Adaboost. 
 When a face has been detected, the user then tells the program that it has been detected by pressing the letter 'y'. 
@@ -17,6 +19,7 @@ When a face has been detected, the user then tells the program that it has been 
 As the user confirms, a Rect will be created around the location of the face, which will be given to the next state. 
 
 2. state - Face tracking.
+
 This State used the Rect which it has received from state 1, and create a mask, such that the face the is only being analysed. 
 Before tracking can be initialized GoodFeatures will be found using Shi-Thomasi corner detection approach. 
 These corner are then fed to Lukas Kanade Optical flow, which does the tracking. 
