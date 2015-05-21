@@ -17,4 +17,4 @@
    f = 1/1;
    y = transpose(chop(0.799760*sin(2*pi*f*n),5));
    plot(n,y); 
-   csvwrite('onetenth_sample10_t100.csv',transpose(y));
+   csvwrite('onehertz_sample100_t100.csv',transpose(y));
