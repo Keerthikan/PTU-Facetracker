@@ -13,8 +13,8 @@
    %title('Signal versus Time');
    csvwrite('onehertz_sample10.csv',x) % save the data somewhere on github. 
    %%
-   n = 0:1/100:100;
-   f = 1/1;
-   y = transpose(chop(0.799760*sin(2*pi*f*n),5));
+   n = 0:1/10:100;
+   f = 1/10;
+   y = transpose(chop(0.349880*sin(2*pi*f*n),5));
    plot(n,y); 
-   csvwrite('onehertz_sample100_t100.csv',transpose(y));
+   csvwrite('tiltonetenthhertz_sample15_t100.csv',transpose(y));
