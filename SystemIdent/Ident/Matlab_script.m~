@@ -1,13 +1,13 @@
  %% Time specifications:
-   Fs = 10;                   % samples per second
+   Fs = 1;                   % samples per second
    dt = 1/Fs;                   % seconds per sample
-   StopTime = 5;             % seconds
+   StopTime = 500;             % seconds
    t = (0:dt:StopTime-dt)';     % seconds
-   Fc = 1;                     % hertz
-   x = 0sin(2*pi*Fc*t);
+   Fc = 1/100;                     % hertz
+   x = 0.799760*sin(2*pi*Fc*t);
    % Plot the signal versus time:
-   figure;
+   %figure;
    plot(t,x);
    xlabel('time (in seconds)');
    title('Signal versus Time');
-   zoom xon;
+   csvwrite('onehundreth_sampl.csv',x)

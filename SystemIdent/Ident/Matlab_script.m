@@ -10,3 +10,4 @@
    plot(t,x);
    xlabel('time (in seconds)');
    title('Signal versus Time');
+   csvwrite('onehundreth_sampl.csv')
