@@ -13,8 +13,8 @@
    %title('Signal versus Time');
    csvwrite('onehertz_sample10.csv',x) % save the data somewhere on github. 
    %%
-   fs = 10;
-   Ts = 1/fs;
-   n = 0:1000;
-   f = 0.1;
-   x = chop(0.799760*sin(2*pi*f*N*Ts));
+   n = 0:1/10:50;
+   f = 1/5;
+   y = chop(0.799760*sin(2*pi*f*n),5);
+   plot(n,y); 
+   csvwrite('onefifth_sample10.csv',y)
