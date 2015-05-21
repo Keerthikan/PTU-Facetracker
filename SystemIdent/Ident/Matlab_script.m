@@ -3,12 +3,12 @@
    dt = 1/Fs;                   % seconds per sample
    StopTime = 500;             % seconds
    t = (0:dt:StopTime-dt)';     % seconds
-   Fc = 1/100;                     % hertz
-   x = 0.799760*sin(2*pi*Fc*t);
-   x = transpose(x)
+   Fc = 1/5;                     % hertz
+   x = chop(0.799760*sin(2*pi*Fc*t),5);
+   x = transpose(x);
    % Plot the signal versus time:
    %figure;
    %plot(t,x);
    %xlabel('time (in seconds)');
    %title('Signal versus Time');
-   csvwrite('onehundreth_sampl.csv',x)
+   csvwrite('onefifth_sampl.csv',x)
