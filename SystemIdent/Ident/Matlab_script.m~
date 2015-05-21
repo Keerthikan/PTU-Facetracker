@@ -17,4 +17,4 @@
    f = 1/5;
    y = transpose(chop(0.799760*sin(2*pi*f*n),5));
    plot(n,y); 
-   csvwrite('onefifth_sample100.csv',y)
+   csvwrite('onefifth_sample100.csv',transpose(y));
