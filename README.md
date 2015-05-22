@@ -32,8 +32,11 @@ Strategies such as Foward  - Backward error estimation, Simple statistics and SU
 
 Controller: Is at moment a simple P-controller 
 System has been identified using MATLAB with a $\approx$ 71 % Accuracy. 
+
 Pan: tf([634,128620399661	569,798462742000],[1	0,00353886088250070	8699,02050622987])
+
 Tilt: tf([13,6772222759153	35,7549401477673][1	0,000230822223534823	467,416351147370])
+
 Detemined using a sinesweep Logarithmic step. 
 
 More info will be added later :) 
