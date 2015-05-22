@@ -9,7 +9,7 @@ plot(t, y, '*-');
 %%
 fs = 30; % sample rate
 f1 = 1/10; % start freq
-f2 = 10; % end freq
+f2 = 5; % end freq
 T = 100; %second run time 
  
 w1=2*pi*f1;
@@ -18,5 +18,5 @@ t=0:1/fs:(T*fs-1)/fs;
 K=T*w1/log(w2/w1);
 L=T/log(w2/w1);
 sweep=0.799760*sin(K.*(exp(t./L)-1)); %sweep data set
-csvwrite('newFreqSweep100S30SAMPLEFREQ_ONETEENTHtoTEN.csv',sweep);
+csvwrite('newFreqSweep100S30SAMPLEFREQ_ONETEENTHtoFIVE.csv',sweep);
 plot(t,sweep,'*-')
