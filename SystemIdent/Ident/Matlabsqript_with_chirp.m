@@ -17,6 +17,6 @@ w2=2*pi*f2;
 t=0:1/fs:(T*fs-1)/fs;
 K=T*w1/log(w2/w1);
 L=T/log(w2/w1);
-sweep=0.799760*sin(K.*(exp(t./L)-1)); %sweep data set
+sweep=0.349880*sin(K.*(exp(t./L)-1)); %sweep data set
 csvwrite('newFreqSweep500S10SAMPLEFREQ_ONETEENTHtoONE.csv',sweep);
 plot(t,sweep,'*-')
